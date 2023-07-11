@@ -4,13 +4,40 @@
     <head>
         <meta charset="UTF-8">
         <title>Console Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Rock Paper Scissors</h1>
-        <script src="game.js"></script>
+        <div class="body-container prevent-select">
+            <div id="main-header">
+                <h1>Rock Paper Scissors</h1>
+            </div>
+            <div class="container">
+                <p>Make your choice</p>
+                <div class="options">
+                    <div class="card" id="rock">
+                        <img src="https://cdn.pixabay.com/photo/2014/12/22/00/03/rock-576669_1280.png" alt="Rock illustration" draggable="false">
+                        <p>Rock</p>
+                    </div>
+                    <div class="card" id="paper">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/12/19/00/certificate-154169_1280.png" alt="Paper illustration" draggable="false">
+                        <p>Paper</p>
+                    </div>
+                    <div class="card" id="scissors">
+                        <img src="https://cdn.pixabay.com/photo/2018/04/12/18/48/a-pair-of-scissors-3314438_1280.png" alt="Scissors illustration" draggable="false">
+                        <p>Scissors</p>
+                    </div>
+                </div>
+                <p id="info">Click a card to get started.</p>
+                <p id="score-info"></p>
+                <div class="scores">
+                    <p id="player">Player score: 0</p>
+                    <p id="computer">Computer score: 0</p>
+                </div>
+            </div>
+        </div>
     </body>
 
-
+    <script src="game.js"></script>
 
 </html>
