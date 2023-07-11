@@ -1,4 +1,6 @@
 # rock-paper-scissors    
 
 An introductory JavaScript project emulating the game of rock paper scissors.    
-Users play against the computer in the console in DevTools.
+Displays beginner knowledge of DOM Manipulation.
+
+https://kellenjcole.github.io/rock-paper-scissors/
